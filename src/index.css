@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: url("/fonts/lucida-grande/LucidaGrande.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+.react-datepicker-wrapper input {
+  @apply text-sm p-2 border rounded w-full text-gray-600;
+}
+
